@@ -16,7 +16,8 @@
     "test_presskey": "testcafe chrome tests/PressKey.js ",
     "test_type": "testcafe chrome tests/Type_text.js ",
     "test_select_text": "testcafe chrome tests/Select_Text.js ",
-    "crearReport": "node report-generator.js"
+    "crearReport": "node report-generator.js",
+    "test_demo_gitt": "testcafe chrome tests/Parametros.js  -e"
   },
   "devDependencies": {
     "multiple-cucumber-html-reporter": "^3.4.0",
