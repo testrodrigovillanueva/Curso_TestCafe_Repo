@@ -1,0 +1,33 @@
+{
+  "name": "basic-testcafe-example",
+  "version": "0.1.0",
+  "description": "Basic TestCafe API example",
+  "main": "tests/test.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevExpress/testcafe/issues"
+  },
+  "scripts": {
+    "test_tres": "testcafe chrome tests/Prueba_tres.js",
+    "test_cuatro": "testcafe chrome tests/Prueba_cuatro.js -e",
+    "test_cuatro_dos": "testcafe chrome tests/Prueba_cuatro.js ",
+    "test_actions": "testcafe chrome tests/Actions.js ",
+    "test_click": "testcafe chrome tests/Option_click.js ",
+    "test_presskey": "testcafe chrome tests/PressKey.js ",
+    "test_type": "testcafe chrome tests/Type_text.js ",
+    "test_select_text": "testcafe chrome tests/Select_Text.js ",
+    "crearReport": "node report-generator.js"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "node-xlsx": "^0.23.0",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-easykad4jira-allure-reporter": "^1.0.6",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}

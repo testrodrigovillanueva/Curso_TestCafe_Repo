@@ -1,0 +1,93 @@
+[
+  {
+    "description": "Empezando con TestCafe",
+    "elements": [
+      {
+        "id": "ScenarioPress Key Focus",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Press Key Focus",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:1:0"
+            },
+            "name": "Press Key Focus",
+            "result": {
+              "duration": 5598,
+              "error_message": "1) Failed to load the page at \"https://demoqa.com/text-box\".\n   Increase the value of the \"pageRequestTimeout\" variable, enable the \"retryTestPages\" option, or use quarantine mode to perform additional attempts to execute this test.\n   You can find troubleshooting information for this issue at \"https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx\".\n\n   Error details:\n   Failed to find a DNS-record for the resource at \"https://demoqa.com/text-box\".\n\n   Browser: Chrome 112.0.0.0 / Windows 10\n\n      77 | ('Press Key Focus', async t =>{\n      78 |     const name=XPathSelector(\"//input[contains(@id,'userName')]\")\n      79 |     const email=XPathSelector(\"//input[contains(@id,'userEmail')]\")\n      80 |         \n      81 |     await t \n   --------------------------------------------\n    &rarr; 82 |     .maximizeWindow()\n   --------------------------------------------\n      83 |     .wait(tiempo)\n      84 |     .typeText(name,\"Rodrigo\")\n      85 |     .pressKey('ctrl+a')\n      86 |     //Opciones portapapeles no se emulan\n      87 |     //https://testcafe.io/documentation/402693/reference/test-api/testcontroller/presskey\n\n      at <anonymous> (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:82:6)\n      at asyncGeneratorStep (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:3:39)\n      at _next (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:3:39)\n      at <anonymous> (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:3:39)\n      at <anonymous> (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:3:39)\n      at <anonymous> (C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:90:2)\n",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Press Key Focus</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Empezando con TestCafe",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "112.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2023-05-06T01:02:44.227Z",
+      "startTime": "2023-05-06T01:02:38.609Z"
+    },
+    "name": "Empezando con TestCafe",
+    "runInfo": {
+      "endTime": "2023-05-06T01:02:44.226Z",
+      "passed": 0,
+      "startTime": "2023-05-06T01:02:38.609Z",
+      "testCount": 1,
+      "userAgents": [
+        "Chrome 112.0.0.0 / Windows 10"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@press"
+      },
+      {
+        "line": 0,
+        "name": "@key"
+      },
+      {
+        "line": 0,
+        "name": "@focus"
+      },
+      {
+        "line": 0,
+        "name": "@empezando"
+      },
+      {
+        "line": 0,
+        "name": "@con"
+      },
+      {
+        "line": 0,
+        "name": "@testcafe"
+      }
+    ],
+    "uri": "C:\\Users\\Rodrigo\\Documents\\VIDEOS_UDEMY_ES\\TESTCAFE_CURSO2\\Curso\\tests\\Actions.js:1"
+  }
+]

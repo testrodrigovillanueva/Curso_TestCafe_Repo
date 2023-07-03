@@ -1,0 +1,114 @@
+1.-Node
+2.-npm install -g testcafe
+3.-Paghian pruebas testcafe-> https://devexpress.github.io/testcafe/example/
+########### Run 
+4.-testcafe chrome Hola_mundo.js -e
+npx run test
+
+5.-https://github.com/DevExpress/testcafe-examples  //Ejemplos Verificar
+
+6.Video 
+npm i @ffmpeg-installer/ffmpeg
+
+testcafe chrome Take_Screenshot.js -e --video artifacts/videos
+
+7.-Reportes
+npm install testcafe-reporter-html
+
+testcafe chrome Take_Screenshot.js -e  --reporter html:reportes/reporteuno.html
+
+###################
+npm install --save testcafe-reporter-cucumber-json
+
+testcafe chrome Actions.js -e --reporter cucumber-json --reporter-json-folder=jsonReportes
+
+Segundo paso
+
+npm install --save-dev multiple-cucumber-html-reporter 
+crear archivo report-generator.js -> copiar el codigo 
+en el package json  "crearReport": "node report-generator.js"   -->   npm run crearReport
+
+##########################
+npm install testcafe-reporter-minimal
+
+testcafe chrome Actions.js -e  --reporter minimal
+
+
+######################
+configuration File
+testcafe  Prueba_cinco.js  --config-file .testcaferc.json
+
+######################
+Sitios de Pruebas 
+https://www.federico-toledo.com/sitios-de-prueba-para-practicar/
+
+https://cl.abstracta.us/blog/mejores-sitios-web-prueba-practicar-tests/
+https://www.saucedemo.com/
+
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/FormsAndMultiPurposeOverview/jQuery/Light/
+
+
+Temas.
+Actiones   ->  checar custom actions
+
+Videos
+
+Prueba_cinco -> para lo de Config 
+SelectText
+Hover
+ScrollIntView
+Drag_elements
+Multiple Browser
+Work_Iframes
+Navigate_url 
+Take_screenshots  
+Upload_files
+
+Page Object Models
+Combobox
+Actions return Value
+Navigate validar url
+
+
+Assertions 
+Try_catch
+
+Json,Excel -> Vamos En este tema
+Parametros _DATOS UNO.
+Intento while
+
+
+
+
+
+
+Reportes
+
+
+
+
+
+
+
+
+    "src": "Curso/tests",
+    "selectorTimeout": 5000,
+    "pageRequestTimeout": 40000,
+    "skipJsErrors": true,
+    "_browsers": ["chrome", "firefox"],
+    "?browsers": ["chrome", "firefox:headless"],
+    "??browsers": ["firefox:headless", "chrome:emulation:device=iphone X"],
+    "browsers": ["chrome"]
+    // "screenshots": {
+    //     "path": "C:/Users/Rodrigo/Documents/VIDEOS_UDEMY_ES/TESTCAFE_CURSO2/Curso/tests/screenshots/Demos"
+    // },
+    "videoPath": "C:/Users/Rodrigo/Documents/VIDEOS_UDEMY_ES/TESTCAFE_CURSO2/Curso/tests/Videos/Demos"   -->solo en firefox
+    "concurrency": 3,
+     "filter": {
+        "test": "Prueba Página testingQA 1"
+    },
+    "cache": true,
+
+
+Contraseña CASA 
+#q78!1eCc9K82YGxsNhTPsQkln%fo

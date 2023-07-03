@@ -1,0 +1,25 @@
+user.name=Rodrigo
+user.email=test.rodrigovillanueva@gmail.com
+
+
+1.- git add .
+2.- git commit -m "Iniciando Proyecto"
+3.- gti status 
+4.- git log
+#######
+Recuperar 
+git checkout -- .
+
+################
+git lg  
+git s  
+
+###################
+Cambios 
+git reset --soft 6a675 -> estos archivos se pueden modificar
+git reset --hard 6a675 -> estos archivos es borrado duro
+
+git reflog -> nos da todos los movimientos
+
+crear .gitignore
+
